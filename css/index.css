@@ -8,8 +8,10 @@ html, body {
 
 /* Header */
 .wrap-menu {
-    /* width: 1200px; */
-    margin: auto;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
 }
 
 .nav {
@@ -115,6 +117,27 @@ html, body {
     display: none;
 }
 
+/* Container */
+.container {
+    margin-top: 5rem;
+}
+
+
+/* Intro */
+.container__intro {
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+}
+
+.intro__item {
+    background-color: #ececec;
+    margin: 1rem;
+    text-align: center;
+    height: 20rem;
+}
+
+
 /* PC 1440px */
 @media (min-width: 1025px) { 
     /* Header */
@@ -147,6 +170,10 @@ html, body {
         justify-content: space-between;
     }
 
+    .nav__input-search {
+        width: 15rem;
+    }
+
     .nav__menu-mobile {
         display: block;
         padding: 1.5rem;
@@ -163,9 +190,9 @@ html, body {
         padding-left: 0;
         border: 2px solid #ececec;
         border-radius: 0.2rem;
-        width: 350px;
+        width: 290px;
         position: absolute;
-        left: -20.2rem;
+        left: -16.5rem;
         transform-origin: right top;
         animation: navMenuMobileList ease-in 0.2s;
     }
