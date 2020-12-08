@@ -12,10 +12,11 @@
   <div class="wrap-menu">
     <div class="nav">
       <div class="nav__logo">
-        <img class="nav__img" src="./css/img/logo.jpg" alt="Logo this site">
+        <img class="nav__img" src="./css/img/logo.png" alt="Logo this site">
       </div>
       <ul class="nav__list menu-left hide-on-mobile">
-        <li class="nav-item nav-sub">Home
+        <li class="nav-item nav-sub">
+          <span class="nav-item__text">Home</span>
           <!-- Sub menu -->
           <div class="nav-sub__menu">
             <ul class="nav-sub__list">
@@ -25,7 +26,8 @@
             </ul>
           </div>
         </li>
-        <li class="nav-item nav-sub">Shop
+        <li class="nav-item nav-sub">
+          <span class="nav-item__text">Shop</span>
           <!-- Sub menu -->
           <div class="nav-sub__menu">
             <ul class="nav-sub__list">
@@ -35,8 +37,12 @@
             </ul>
           </div>
         </li>
-        <li class="nav-item">About</li>
-        <li class="nav-item">Contact</li>
+        <li class="nav-item">
+          <span class="nav-item__text">About</span>
+        </li>
+        <li class="nav-item">
+          <span class="nav-item__text">Contact</span>
+        </li>
       </ul>
       <div class="nav__search">
         <form action="">
@@ -45,10 +51,14 @@
       </div>
       <ul class="nav__list menu-right hide-on-mobile">
         <li class="nav-item">
-          <i class="fa fa-user-plus fa-lg" aria-hidden="true"></i>
+          <span class="nav-item__text">
+            <i class="fa fa-user-plus fa-lg" aria-hidden="true"></i>
+          </span>
         </li>
         <li class="nav-item">
-          <i class="fa fa-sign-in fa-lg" aria-hidden="true"></i>
+          <span class="nav-item__text">
+            <i class="fa fa-sign-in fa-lg" aria-hidden="true"></i>
+          </span>
         </li>
       </ul>
 
@@ -98,6 +108,15 @@
           </ul>
         </div>  
       </div>
+    </div>
+  </div>
+
+  <div class="slider">
+    <div class="slider__content hide-on-mobile">
+      <h1>Welcome to the LaptopNew</h1>
+    </div>
+    <div class="slider__action">
+      <button class="slider__button">Buy now</button>
     </div>
   </div>
 
